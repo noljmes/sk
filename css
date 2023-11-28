@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('011.jpg') center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.add-row-btn,
+.undo-row-btn,
+.calculate-difference-btn {
+    background-color: #008CBA;
+}
+
+.add-row-btn:hover,
+.undo-row-btn:hover,
+.calculate-difference-btn:hover {
+    background-color: #0077A3;
+}
+
+#total-debit,
+#total-credit,
+#debit-credit-difference {
+    font-weight: bold;
+    color: #333;
+}
